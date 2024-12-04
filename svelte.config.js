@@ -7,12 +7,12 @@ const config = {
 	// for more information about preprocessors
 	preprocess: vitePreprocess(),
 
-	kit: {
+kit: {
 		adapter: adapter({
 			fallback: '404.html'
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? '' : `/svelte-portfolio`
+			base: process.env.NODE_ENV === 'production' ? '/svelte-portfolio' : '',
 		}
 	}
 };
