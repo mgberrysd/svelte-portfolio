@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import ProjectCard from './projectCard.svelte';
 	import { fade } from 'svelte/transition';
 

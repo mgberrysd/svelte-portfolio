@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { fade } from 'svelte/transition';
 
 	let { title, githubLink, projectLink, splash, index, delayFactor = 0 } = $props();
