@@ -8,14 +8,14 @@
 			project_description: 'A photo gallery site with a full featured CMS suite.',
 			githubLink: 'https://github.com/falafelrapper/3plusmgmt',
 			projectLink: 'http://3pm.zacharyroy.com/',
-			splash: './assets/images/3pm.png'
+			splash: 'assets/images/3pm.png'
 		},
 		{
 			title: 'SLO Stone Properties',
 			project_description: 'A property management and application site with administrative tools.',
 			githubLink: 'https://github.com/RCLobster/slo-stone-properties',
 			projectLink: 'https://www.slostoneproperties.com/',
-			splash: './assets/images/slo-stone.png'
+			splash: 'assets/images/slo-stone.png'
 		}
 	];
 	const school = [
@@ -24,21 +24,21 @@
 			project_description: 'A Mad Libs generator with text to speech integration and social elements.',
 			githubLink: 'https://github.com/RCLobster/team-M-s-project-3',
 			projectLink: 'https://team-m-s-project-3.onrender.com/',
-			splash: './assets/images/madlibgen_home.png'
+			splash: 'assets/images/madlibgen_home.png'
 		},
 		{
 			title: 'Breaking Bread',
 			project_description: 'A recipe sharing platform.',
 			githubLink: 'https://github.com/falafelrapper/breaking-bread',
 			projectLink: 'https://agile-cove-66310-81bc545fcfa7.herokuapp.com/',
-			splash: './assets/images/breaking-bread.png'
+			splash: 'assets/images/breaking-bread.png'
 		},
 		{
 			title: 'The Prep Project',
 			project_description: 'An interactive recipe recommender.',
 			githubLink: 'https://github.com/3123MtOlympus/theprepproject',
 			projectLink: 'https://3123mtolympus.github.io/theprepproject/',
-			splash: './assets/images/the-prep-project.png'
+			splash: 'assets/images/the-prep-project.png'
 		}
 	];
 </script>

@@ -1,12 +1,13 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition';
+	import { base } from '$app/paths';
 </script>
 
 <div in:fade={{ duration: 2000 }} class="w-full text-center text-2xl">
 	<h2>Mike Berry</h2>
 	<p>Full Stack Web Developer</p>
 	<embed
-		src="./assets/documents/Resume.pdf"
+		src="assets/documents/Resume.pdf"
 		class="m-auto pt-5 w-full lg:w-[70%] h-[80vh]"
 		in:fade={{ delay: 2000, duration: 2000 }}
 	/>

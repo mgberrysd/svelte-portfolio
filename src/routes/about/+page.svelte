@@ -1,9 +1,11 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition';
+	import { base } from '$app/paths';
+
 </script>
 
 <section in:fade={{ duration: 2000 }} class="text-center text-xl space-y-10 w-[75vw] m-auto">
-    <img src="../assets/images/test_image.jpg" alt="me" class="rounded-full m-auto"/>
+    <img src="{base}/assets/images/test_image.jpg" alt="me" class="rounded-full m-auto"/>
 	<p>
 		Newly minted full stack web developer. Front end fundementals in HTML, CSS, and
 		JavaScript/TypeScript. Expereience with Bootstrap, Handlebars.js, and ReactJS. Back end

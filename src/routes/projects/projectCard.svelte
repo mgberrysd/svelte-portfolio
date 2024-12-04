@@ -2,6 +2,7 @@
 	import { fade } from 'svelte/transition';
 
 	let { title, project_description, githubLink, projectLink, splash, index, delayFactor = 0 } = $props();
+
 </script>
 
 <article

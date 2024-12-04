@@ -1,0 +1,5 @@
+import{a as o,t as r}from"../chunks/disclose-version.YwAhFp6B.js";import"../chunks/legacy.DV3d7G5Q.js";import{c as s,n,r as i}from"../chunks/runtime.CvFDmIWS.js";import{s as p}from"../chunks/attributes.CSWPHekh.js";import{t as c,f as m}from"../chunks/index.D8e9zPLd.js";import{b as d}from"../chunks/paths.DwoWNdoy.js";var l=r(`<section class="text-center text-xl space-y-10 w-[75vw] m-auto"><img alt="me" class="rounded-full m-auto"> <p>Newly minted full stack web developer. Front end fundementals in HTML, CSS, and
+		JavaScript/TypeScript. Expereience with Bootstrap, Handlebars.js, and ReactJS. Back end
+		experience with NodeJS, Express, Apollo/graphQL, MySQL/Sequelize, and MongoDB/Mongoose. Check
+		out my projects page to see some of the projects I have worked on.</p> <p>My background prior to this in Mechanical Engineering where I conducted spacecraft fire safety
+		research and learned to code with MATLAB. I am always eager and willing to learn!</p></section>`);function y(a){var e=l(),t=s(e);p(t,"src",`${d??""}/assets/images/test_image.jpg`),n(4),i(e),c(1,e,()=>m,()=>({duration:2e3})),o(a,e)}export{y as component};
