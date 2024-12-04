@@ -7,9 +7,7 @@
 	<p>Full Stack Web Developer</p>
 	<embed
 		src="./assets/documents/Resume.pdf"
-		width="70%"
-		height="750"
-		class="m-auto pt-5"
+		class="m-auto pt-5 w-full lg:w-[70%] h-[80vh]"
 		in:fade={{ delay: 2000, duration: 2000 }}
 	/>
 </div>

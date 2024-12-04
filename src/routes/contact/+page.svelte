@@ -25,6 +25,7 @@
 				></path>
 			</svg></a
 		>
+		<p>Github</p>
 	</div>
 <div>
     <a href="https://www.linkedin.com/in/michael-g-berry/" aria-label="linkedin"
@@ -43,6 +44,7 @@
 			></path>
 		</svg></a
 	>
+	<p>LinkedIn</p>
 </div>
 	
 </section>

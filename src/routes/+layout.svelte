@@ -3,7 +3,7 @@
 	let { children } = $props();
 </script>
 
-<nav class="mb-10">
+<nav class="mb-10 text-lg flex items-stretch justify-around w-[100vw] p-[1%] bg-black text-white font-mono">
 	<a href="/">Home</a>
 	<a href="/about">About Me</a>
 	<a href="/projects">Projects</a>
@@ -14,16 +14,6 @@
 {@render children()}
 
 <style>
-	nav {
-		font-size: large;
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		width: 100vw;
-		padding: 1% 0 1% 0;
-		background-color: black;
-		color: white;
-	}
 	nav a:hover {
 		color: gray;
 	}
