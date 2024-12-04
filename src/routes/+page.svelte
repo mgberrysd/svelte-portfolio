@@ -1,3 +1,8 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import { fade } from 'svelte/transition';
+</script>
+
+<div in:fade={{ duration: 1000 }} class="text-center text-3xl">
+	<h2>Mike Berry</h2>
+	<p in:fade={{delay:1000, duration: 1500 }}>Full Stack Web Developer</p>
+</div>
