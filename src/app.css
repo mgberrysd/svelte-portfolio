@@ -2,10 +2,44 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@font-face {
+	font-family: 'Geist';
+	src: url('/fonts/Geist-v1.4.01/otf/Geist-Regular.otf');
+	src:
+		url('/fonts/Geist-v1.4.01/otf/Geist-Regular.otf') format('opentype'),
+		url('/fonts/Geist-v1.4.01/webfonts/Geist-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Geist';
+	src: url('/fonts/Geist-v1.4.01/otf/Geist-Bold.otf');
+	src:
+		url('/fonts/Geist-v1.4.01/otf/Geist-Bold.otf') format('opentype'),
+		url('/fonts/Geist-v1.4.01/webfonts/Geist-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geist Mono';
+	src: url('/fonts/GeistMono-1.4.01/otf/GeistMono-Regular.otf');
+	src:
+		url('/fonts/GeistMono-1.4.01/otf/GeistMono-Regular.otf') format('opentype'),
+		url('/fonts/GeistMono-1.4.01/webfonts/GeistMono-Regular.woff2') format('woff2');
+}
+
+.geist {
+  font-family: Geist;
+}
+
+.geist-mono {
+  font-family: 'GeistMono',
+}
+
 body {
-    scroll-behavior: smooth;
-    background-color: white;
-    overflow-x: hidden;
-    width: 99vw;
-    min-height: 100vh;
-  }
+	scroll-behavior: smooth;
+	background-color: white;
+	overflow-x: hidden;
+	width: 99vw;
+	min-height: 100vh;
+}

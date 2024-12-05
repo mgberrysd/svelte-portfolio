@@ -2,7 +2,7 @@
 	import { fade } from 'svelte/transition';
 </script>
 
-<section in:fade={{ duration: 2000 }} class="space-y-10 text-center">
+<section in:fade={{ duration: 1000 }} class="space-y-10 text-center geist">
 	<h2 class="text-2xl font-bold">Contact Me</h2>
 	<div>
 		<a href="mailto:mgberrysd@gmail.com" class="text-xl hover:text-gray-500">Email</a>
