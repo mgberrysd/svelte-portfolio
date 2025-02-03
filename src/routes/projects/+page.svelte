@@ -6,14 +6,14 @@
 		{
 			title: '3 Plus Management',
 			project_description: 'A photo gallery site with a full featured CMS suite.',
-			githubLink: 'https://github.com/falafelrapper/3plusmgmt',
-			projectLink: 'http://3pm.zacharyroy.com/',
+			githubLink: '',
+			projectLink: 'https://www.3plusmgmt.com/',
 			splash: 'assets/images/3pm.jpg'
 		},
 		{
 			title: 'SLO Stone Properties',
 			project_description: 'A property management and application site with administrative tools.',
-			githubLink: 'https://github.com/RCLobster/slo-stone-properties',
+			githubLink: '',
 			projectLink: 'https://www.slostoneproperties.com/',
 			splash: 'assets/images/slo-stone.jpg'
 		}
@@ -53,7 +53,7 @@
 			</p>
 		</div>
 
-		<div class="flex basis-1/2 flex-wrap">
+		<div class="flex basis-1/2 flex-wrap justify-center">
 			{#each pro as project, index}
 				<ProjectCard {...project} {index} />
 			{/each}
@@ -66,7 +66,7 @@
 			<p>Group projects undertaken while learning web development.</p>
 		</div>
 
-		<div class="flex flex-wrap">
+		<div class="flex basis-1/2 flex-wrap justify-center">
 			{#each school as project, index}
 				<ProjectCard {...project} {index} delayFactor={pro.length} />
 			{/each}
