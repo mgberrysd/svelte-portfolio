@@ -1,0 +1,1 @@
+import{u as t,b as o,l as c,d as u}from"./C3M68kN4.js";function l(e){throw new Error("lifecycle_outside_component")}function r(e){o===null&&l(),c&&o.l!==null?a(o).m.push(e):t(()=>{const n=u(e);if(typeof n=="function")return n})}function a(e){var n=e.l;return n.u??(n.u={a:[],b:[],m:[]})}export{r as o};
