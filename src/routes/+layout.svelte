@@ -2,11 +2,6 @@
 	import '../app.css';
 	import { base } from '$app/paths';
 	let { children } = $props();
-
-	import { onMount } from 'svelte';
-
-	let ready = $state(false);
-	onMount(() => (ready = true));
 </script>
 
 <nav
@@ -19,9 +14,7 @@
 	<a href="{base}/contact">Contact</a>
 </nav>
 
-{#if ready}
 	{@render children()}
-{/if}
 
 <style>
 	nav a:hover {
