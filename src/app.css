@@ -38,8 +38,16 @@
 
 body {
 	scroll-behavior: smooth;
-	background-color: white;
 	overflow-x: hidden;
 	width: 99vw;
 	min-height: 100vh;
+	color: white;
+	background-color: black;
+	/* text-shadow: 1px 1px 0 white; */
+}
+
+section {
+	min-height: 100vh;
+	padding-top: 7vh;
+	padding-bottom: 10vh;
 }
