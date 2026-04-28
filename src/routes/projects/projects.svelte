@@ -63,7 +63,6 @@
 			tl.resume();
 		});
 
-		console.log(projectsArray?.childElementCount);
 		if (projectsArray?.children)
 			Array.from(projectsArray?.children).forEach((child, i) => {
 				tl.set(child, { position: 'absolute' }, 0);

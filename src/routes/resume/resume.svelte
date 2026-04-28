@@ -14,13 +14,24 @@
 			}
 		});
 
-		tl.from(document.querySelector('#resume h1'), { scale: 0, duration: 0.75, ease: 'power4' }, 0.5);
+		tl.from(
+			document.querySelector('#resume h1'),
+			{ scale: 0, duration: 0.75, ease: 'power4' },
+			0.5
+		);
 
-		tl.fromTo(document.querySelector('#resume embed'), {height: 0}, { height: '80vh', duration: 1.25, ease: 'power4' }, 1.25);
+		tl.set(document.querySelector('#resume embed'), { height: 0 }, 0);
+
+		tl.fromTo(
+			document.querySelector('#resume embed'),
+			{ height: 0 },
+			{ height: '80vh', duration: 1.25, ease: 'power4' },
+			1.25
+		);
 	});
 </script>
 
-<section class="geist w-full text-center text-2xl flex flex-col items-center" id="resume">
+<section class="geist flex w-full flex-col items-center text-center text-2xl" id="resume">
 	<h1 class="text-3xl font-bold">Resume</h1>
 	<embed src="assets/documents/Resume.pdf" class="w-full pt-5 lg:w-[70%]" />
 </section>
