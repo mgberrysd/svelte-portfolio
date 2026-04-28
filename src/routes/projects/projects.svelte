@@ -72,9 +72,9 @@
 						autoAlpha: 0,
 						duration: 1,
 						repeat: -1,
-						repeatDelay: projectsArray?.childElementCount * 4 - 1
+						repeatDelay: projectsArray?.childElementCount * 3.5 - 1
 					},
-					i * 4
+					i * 3.5
 				);
 
 				tl.fromTo(
@@ -82,11 +82,11 @@
 					{ autoAlpha: 1 },
 					{
 						autoAlpha: 0,
-						duration: 1,
+						duration: 0.5,
 						repeat: -1,
-						repeatDelay: projectsArray?.childElementCount * 4 - 1
+						repeatDelay: projectsArray?.childElementCount * 3.5 - 0.5
 					},
-					2 + i * 4
+					3.5 + i * 3.5
 				);
 			});
 	});

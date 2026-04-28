@@ -51,7 +51,7 @@
 </script>
 
 <section
-	class="geist m-auto flex w-[75vw] flex-col items-center space-y-10 text-justify text-xl"
+	class="geist m-auto flex w-[75vw] flex-col items-center space-y-10 text-xl"
 	id="about"
 >
 	<h1 class="text-3xl font-bold">About Me</h1>
