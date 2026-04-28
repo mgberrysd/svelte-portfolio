@@ -1,12 +1,13 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { onMount, tick } from 'svelte';
 
 	import { gsap } from 'gsap';
 	import { ScrollTrigger } from 'gsap/ScrollTrigger';
 	import { SplitText } from 'gsap/SplitText';
 	gsap.registerPlugin(ScrollTrigger, SplitText);
 
-	onMount(() => {
+	onMount(async () => {
+		await tick();
 		let tl = gsap.timeline({
 			scrollTrigger: {
 				trigger: '#about',
@@ -51,7 +52,7 @@
 </script>
 
 <section
-	class="geist m-auto flex w-[75vw] flex-col items-center space-y-10 text-xl"
+	class="geist m-auto flex w-[75vw] flex-col items-center space-y-10 text-justify text-xl"
 	id="about"
 >
 	<h1 class="text-3xl font-bold">About Me</h1>
