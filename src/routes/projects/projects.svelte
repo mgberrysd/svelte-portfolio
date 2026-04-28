@@ -63,6 +63,7 @@
 			tl.resume();
 		});
 
+		console.log(projectsArray?.childElementCount);
 		if (projectsArray?.children)
 			Array.from(projectsArray?.children).forEach((child, i) => {
 				tl.set(child, { position: 'absolute' }, 0);
@@ -72,18 +73,19 @@
 						autoAlpha: 0,
 						duration: 1,
 						repeat: -1,
-						repeatDelay: projectsArray?.children.length * 4 - 1
+						repeatDelay: projectsArray?.childElementCount * 4 - 1
 					},
 					i * 4
 				);
 
-				tl.to(
+				tl.fromTo(
 					child,
+					{ autoAlpha: 1 },
 					{
 						autoAlpha: 0,
 						duration: 1,
 						repeat: -1,
-						repeatDelay: projectsArray?.children.length * 4 - 1
+						repeatDelay: projectsArray?.childElementCount * 4 - 1
 					},
 					2 + i * 4
 				);

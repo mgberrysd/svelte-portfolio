@@ -20,9 +20,9 @@
 	});
 </script>
 
-<section class="geist w-full text-center text-2xl" id="resume">
+<section class="geist w-full text-center text-2xl flex flex-col items-center" id="resume">
 	<h1 class="text-3xl font-bold">Resume</h1>
-	<embed src="assets/documents/Resume.pdf" class="m-auto w-full pt-5 lg:w-[70%]" />
+	<embed src="assets/documents/Resume.pdf" class="w-full pt-5 lg:w-[70%]" />
 </section>
 
 <style>
