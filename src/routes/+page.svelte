@@ -81,7 +81,7 @@
 	<div id="smooth-content">
 		<section class="geist flex flex-col justify-center text-center text-3xl" id="intro">
 			<h1 class="text-3xl font-bold">Mike Berry</h1>
-			<p class="text-2xl">Full Stack Web Developer</p>
+			<p class="text-2xl">Software Engineer</p>
 		</section>
 
 		<About />

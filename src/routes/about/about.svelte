@@ -58,9 +58,9 @@
 	<h1 class="text-3xl font-bold">About Me</h1>
 	<img src="assets/images/test_image.jpg" alt="me" class="m-auto rounded-full" />
 	<p>
-		I am currently working as an independent Full Stack web developer. I have worked with clients in
+		I am currently working as a software engineer. I have worked with clients in
 		a diverse range of industries to provide them with both modern and accessible full stack
-		applications. As a developer I have project experience working with HTML, CSS,
+		applications. As a engineer I have project experience working with HTML, CSS,
 		JavaScript/Typescript, Node.js, Express.js, React, Svelte, GSAP, MySQL, MongoDB, various AWS
 		products and a number of CSS frameworks. Every project that I have worked on has provided
 		opportunities to further hone these skills and learn new ones in pursuit of better development
