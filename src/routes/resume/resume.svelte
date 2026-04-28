@@ -16,7 +16,7 @@
 
 		tl.from(document.querySelector('#resume h1'), { scale: 0, duration: 0.75, ease: 'power4' }, 0.5);
 
-		tl.from(document.querySelector('#resume embed'), { scale: 0, duration: 1.25, ease: 'power4' }, 1.25);
+		tl.fromTo(document.querySelector('#resume embed'), {height: 0}, { height: '80vh', duration: 1.25, ease: 'power4' }, 1.25);
 	});
 </script>
 
